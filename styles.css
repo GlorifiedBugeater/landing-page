@@ -2,24 +2,56 @@
   outline: 2px solid red;
 }
 
-.container {
+
+.header {
     display: flex;
     justify-content: space-between ;
     background-color: #1f2937;
-    color: #e5e7eb;
-    font-size: 18px;
-    font-weight: 900;
+    border: 100px;
+    height: 200px;
+    
     
 }
 
-.logo {
+.logo{
     color: #f9faf8;
     font-size: 24px;
 
 }
 
-.buttons {
+.links, .hero-sub  {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    height: 200px;
+   
+    
+}
+
+.image {
+    flex: 2,1 auto;
+    
+}
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 15px;
+}
+
+button {
+ width: 100px;
 }
