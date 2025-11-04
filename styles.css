@@ -1,5 +1,11 @@
-* {
-  outline: 2px solid red;
+/* * {
+    outline: 2px solid red;
+} */
+
+
+
+body {
+    font-family: 'roboto'
 }
 
 
@@ -8,7 +14,7 @@
     justify-content: space-between ;
     background-color: #1f2937;
     border: 100px;
-    height: 200px;
+    height: 1cm;
     
     
 }
@@ -43,6 +49,7 @@
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    
 }
 
 .hero-text {
@@ -54,4 +61,81 @@
 
 button {
  width: 100px;
+ color: #e5e7eb;
+ background-color: #3882f6;
+ border: 2px;
+ border-radius: 5px;
+}
+.information-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    height: 500px;
+    
+}
+
+.information-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.boxes {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+    
+    
+   
+}
+.image-box {
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    
+    
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.atributtion {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.call-box {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    border: 2px solid;
+    border-radius: 5px;
+
+}
+
+.call-main {
+    font-weight: 900;
+}
+.call-sub {
+    font-weight: 300
+    ;
+}
+.signup {
+    border: 2px solid white;
+    height: fit-content;
+    align-self: center;
 }
